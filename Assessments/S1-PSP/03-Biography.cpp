@@ -16,3 +16,4 @@ int main() {
     cout << name << endl << hometown << endl << age << endl;
     return 0;
 }
+ 
