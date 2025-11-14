@@ -1,8 +1,8 @@
-#include <iostream>   // Includes the input/output stream library
-#include <string>     // Includes the string library
-using namespace std;  // Allows use of standard library names without std:: prefix
+#include <iostream>   // This lets us use things like cout to print stuff on the screen
+#include <string>     // Gives us access to the string type for text
+using namespace std;  // So we don’t have to write std:: all the time
 
-int main() {          // Main function where program execution begins
-     cout << "Coding is Cool" << endl;  // Prints text to the console
+int main() {          // The main part of the program where everything starts
+     cout << "Coding is Cool" << endl;  // Shows the message on the screen
 }
 
