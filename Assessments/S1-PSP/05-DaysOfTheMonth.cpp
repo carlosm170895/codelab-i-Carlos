@@ -1,16 +1,16 @@
-#include <iostream>
-using namespace std;
+#include <iostream>   // Lets us use cout and cin for input and output
+using namespace std;  // So we don’t have to type std:: all the time
 
-int main() {
-    int month;
+int main() {          // The main function where the program starts
+    int month;        // This will store the month number the user enters
 
-    cout << "Enter a month number (1-12): ";
-    cin >> month;
+    cout << "Enter a month number (1-12): ";  // Ask the user for a month
+    cin >> month;                              // Read their response
 
-    switch (month) {
+    switch (month) {   // Check which month number the user typed
         case 1:
-            cout << "January has 31 days." << endl;
-            break;
+            cout << "January has 31 days." << endl;  // What month 1 means
+            break;                                   // Stop here
         case 2:
             cout << "February has 28 or 29 days." << endl;
             break;
@@ -45,9 +45,8 @@ int main() {
             cout << "December has 31 days." << endl;
             break;
         default:
-            cout << "That is not a valid month number!" << endl;
+            cout << "That is not a valid month number!" << endl; // For numbers not 1–12
     }
 
-    return 0;
+    return 0;  // End of the program
 }
- 
