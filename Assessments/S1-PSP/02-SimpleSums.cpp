@@ -1,10 +1,10 @@
-#include <iostream>   // Allows use of input/output functions like cout
-using namespace std;  // Enables direct use of standard library names
+#include <iostream>   // Lets us use cout to print things on the screen
+using namespace std;  // Makes it easier so we don't have to type std:: every time
 
-int main() {          // Program entry point
-    int a = 8;        // Declare integer variable a and set it to 8
-    int b = 10;       // Declare integer variable b and set it to 10
-    int sum = a + b;  // Compute the sum of a and b, store in sum
-    cout << sum << endl; // Output the sum to the console
+int main() {          // The main function where the program starts running
+    int a = 8;        // Making a variable called a and giving it the value 8
+    int b = 10;       // Another variable b, this one is 10
+    int sum = a + b;  // Adding a and b together and saving the result in sum
+    cout << sum << endl; // Showing the result on the screen
 }
 
